@@ -28,7 +28,7 @@ time.sleep(1)
 # Red Ring
 loopcount = 10
 pixring = (1,num_pixels)
-for loop in loopcount
+for loop in loopcount:
     for i in pixring:
         pixels[i] = (255, 0, 0)
         pixels.show()
