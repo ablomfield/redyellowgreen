@@ -33,10 +33,9 @@ for n in loopcount:
         pixels[i] = (255, 0, 0)
         pixels.show()
         time.sleep(0.05)
-        pixels[i] = (255, 255, 255)
+        pixels[i] = (0, 0, 0)
 
 # Pixels Off
 pixels.fill((0, 0, 0))
 pixels.show()
 time.sleep(1)
-
