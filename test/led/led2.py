@@ -26,10 +26,13 @@ pixels.show()
 time.sleep(1)
 
 # Red Ring
-for i in range(num_pixels):
-    pixels[i] = (255, 0, 0)
-    pixels.show()
-    time.sleep(0.1)
+loopcount = 10
+pixring = (1,num_pixels)
+for loop in loopcount
+    for i in pixring:
+        pixels[i] = (255, 0, 0)
+        pixels.show()
+        time.sleep(0.05)
 
 # Pixels Off
 pixels.fill((0, 0, 0))
