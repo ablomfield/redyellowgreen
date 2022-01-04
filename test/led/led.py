@@ -65,7 +65,8 @@ pixels.show()
 time.sleep(1)
 
 # Rainbow Cycle
-rainbow_cycle(0.1)
+rainbow_cycle(0.01)
+time.sleep(1)
 
 # Pixels Off
 pixels.fill((0, 0, 0))
