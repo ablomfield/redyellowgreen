@@ -64,10 +64,11 @@ pixels.fill((0, 255, 0))
 pixels.show()
 time.sleep(1)
 
-# Pixels Blue
-pixels.fill((0, 0, 255))
+# Rainbow Cycle
+rainbow_cycle(0.1)
+
+# Pixels Off
+pixels.fill((0, 0, 0))
 pixels.show()
 time.sleep(1)
 
-# Rainbow Cycle
-rainbow_cycle(0.1)
