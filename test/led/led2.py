@@ -20,11 +20,6 @@ def rainbow_cycle(wait):
             pixel_index = (i * 256 // num_pixels) + j
 
 
-# Pixels White
-pixels.fill((255, 255, 255))
-pixels.show()
-time.sleep(1)
-
 # Red Ring
 loopcount = range(10)
 pixring = range(1,num_pixels)
