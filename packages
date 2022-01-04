@@ -11,3 +11,4 @@ apache2
 libapache2-mod-php
 php-mcrypt
 libglib2.0-dev
+libgirepository1.0-dev
