@@ -220,6 +220,7 @@ try:
         except:
             validjson = False
             time.sleep(interval)
+            continue
 
 except Exception as e:
     print("Exeception occured:{}".format(e))
