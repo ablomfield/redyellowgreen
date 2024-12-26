@@ -158,7 +158,7 @@ try:
     avsize = (128,128)
 
     #-------Check Device API-------#
-    devurl = 'https://redyellowgreen.net/api/device/'
+    devurl = 'https://collabtoolbox.com/ryg/api/device/'
     hostname = socket.gethostname() + ".local"
     localipaddress = socket.gethostbyname(hostname)
     devpost = {'devname': devname,'localipaddress': localipaddress}
